@@ -1,4 +1,9 @@
 import React from 'react';
-import styled, { StyledTitle } from './Title.styles';
+import styled, { StyledTitle, StyledName, Wrapper } from './Title.styles';
 
-export const Title = () => <StyledTitle>hello</StyledTitle>;
+export const Title = () => (
+  <Wrapper>
+    <StyledTitle>hello</StyledTitle>
+    <StyledName>I'm Bartek</StyledName>
+  </Wrapper>
+);
