@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
  
  html {
      box-sizing: border-box;
+     overflow-x: hidden;
   
  }
  *, *::after, *::before {
