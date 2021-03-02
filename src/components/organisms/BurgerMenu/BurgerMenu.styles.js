@@ -21,7 +21,7 @@ export const StyledBurgerMenu = styled.div`
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100vw)')};
   align-items: center;
   font-size: 5vh;
-  transition: 0.5s;
+  transition: 0.1s;
   
 
   ${media.phone} {
@@ -38,7 +38,7 @@ export const StyledBurgerMenu = styled.div`
   }
 
   li :hover {
-    font-size: 6vh;
+    font-size: 5.5vh;
     transition: 0.3s;
     cursor: pointer;
   }

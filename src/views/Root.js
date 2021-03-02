@@ -13,6 +13,7 @@ import { StyledBurger } from './Root.styles';
 const Root = () => {
   
   return (
+    
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <StyledBurger>
@@ -24,6 +25,7 @@ const Root = () => {
       <ToLearn />
       <Projects />
     </ThemeProvider>
+    
   );
 };
 
