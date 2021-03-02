@@ -1,11 +1,11 @@
 import React from 'react';
 import NavigationList from 'components/molecules/NavigationList/NavigationList';
-import { ReactComponent as Logo } from 'assets/icons/Logo.svg';
+import Logo  from 'assets/icons/Logo.png';
 import { StyledNavigation } from './Navigation.styles';
 
 const Navigation = () => (
   <StyledNavigation>
-    <Logo />
+    <img src={Logo} />
     <NavigationList />
   </StyledNavigation>
 );
