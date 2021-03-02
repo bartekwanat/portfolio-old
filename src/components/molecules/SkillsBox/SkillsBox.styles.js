@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+const media = {
+  phone: '@media(max-width: 600px)',
+  tabletPortrait: '@media(min-width: 601px) and (max-width:1000px)',
+};
+
 export const WrapperSkillsBox = styled.div`
   width: 100vw;
   height: 20vh;
@@ -10,7 +15,11 @@ export const WrapperSkillsBox = styled.div`
   align-items: flex-end;
 
   h1 {
-    transform: translateX(-20vw);
+    transform: translateX(-25vw);
+    font-size: 10vh;
+    ${media.tabletPortrait} {
+      font-size: 8vh;
+    }
   }
 
   svg {

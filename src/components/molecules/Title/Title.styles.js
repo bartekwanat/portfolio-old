@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+const media = {
+  phone: '@media(max-width: 600px)',
+  tabletPortrait: '@media(min-width: 601px) and (max-width:1000px)',
+};
+
 export const Wrapper = styled.div`
   height: 30vh;
   width: 50vw;
@@ -13,8 +18,18 @@ export const StyledTitle = styled.h1`
   margin: 0;
   padding: 0;
   width: 400px;
-  font-size: 250px;
+  font-size: 15vw;
   transform: translateX(10vw) translateY(-10vh);
+
+  ${media.phone} {
+    font-size: 12vh;
+    transform: translateX(10vw) translateY(-20vh);
+  }
+
+  ${media.tabletPortrait} {
+    font-size: 15vh;
+    transform: translateX(10vw) translateY(-20vh);
+  }
 
   &::after {
     content: '.';
@@ -23,12 +38,18 @@ export const StyledTitle = styled.h1`
 `;
 
 export const StyledName = styled.h3`
-  font-size: 40px;
+  font-size: 3vw;
   margin: 0;
   padding: 0;
   transform: translateX(10vw) translateY(-10vh);
-`;
 
-export const StyledArrow = styled.div`
-  transform: scale(1.5);
+  ${media.phone} {
+    transform: translateX(10vw) translateY(-25vh);
+    font-size: 4vh;
+  }
+
+  ${media.tabletPortrait} {
+    font-size: 4vh;
+    transform: translateX(10vw) translateY(-20vh);
+  }
 `;

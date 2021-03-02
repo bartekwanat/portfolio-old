@@ -1,26 +1,51 @@
 import styled from 'styled-components';
 
-export const StyledAboutMeInfo = styled.div`
+const media = {
+  phone: '@media(max-width: 600px)',
+  tabletPortrait: '@media(min-width: 601px) and (max-width:1000px)',
+};
 
-`;
+export const StyledAboutMeInfo = styled.div``;
 
 export const StyledSectionTitle = styled.h1`
-padding: 0;
-margin: 0;
-font-size: 80px;
+  padding: 0;
+  margin: 0;
+  font-size: 12vh;
 
+  ${media.phone} {
+    font-size: 7vh;
+  }
 
-&::after {
-    content: ".";
-    color: ${({theme}) => theme.colors.third}
-}
+  ${media.tabletPortrait} {
+    font-size: 7vh;
+  }
+
+  &::after {
+    content: '.';
+    color: ${({ theme }) => theme.colors.third};
+  }
 `;
 
 export const StyledAboutMeName = styled.h2`
-font-size: 30px;
+  font-size: 4vh;
+  
+  ${media.phone} {
+    font-size: 3vh;
+    text-align: center;
+  }
+  ${media.tabletPortrait} {
+    font-size: 3vh;
+  }
 `;
 
 export const StyledAboutMeText = styled.p`
-font-size: 25px;
-width: 70%;
+  font-size: 3vh;
+  width: 50%;
+  ${media.phone} {
+    font-size: 2vh;
+  }
+
+  ${media.tabletPortrait} {
+    font-size: 2.7vh;
+  }
 `;
