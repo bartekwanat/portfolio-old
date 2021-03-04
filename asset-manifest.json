@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.e10df21f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e10df21f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/js/2.ea5f21f2.chunk.js": "/portfolio/static/js/2.ea5f21f2.chunk.js",
+    "static/js/2.ea5f21f2.chunk.js.map": "/portfolio/static/js/2.ea5f21f2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/js/2.ea5f21f2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ea5f21f2.chunk.js.LICENSE.txt",
+    "static/media/Burger.e8db7520.svg": "/portfolio/static/media/Burger.e8db7520.svg",
+    "static/media/Logo.6f64400f.png": "/portfolio/static/media/Logo.6f64400f.png",
+    "static/media/brain.9156ed2a.png": "/portfolio/static/media/brain.9156ed2a.png",
+    "static/media/chevron-down-solid.a4f409dd.svg": "/portfolio/static/media/chevron-down-solid.a4f409dd.svg",
+    "static/media/dotted.27c714ed.svg": "/portfolio/static/media/dotted.27c714ed.svg",
+    "static/media/frayed-bar.d4e5b254.svg": "/portfolio/static/media/frayed-bar.d4e5b254.svg",
+    "static/media/hello.d11451f0.png": "/portfolio/static/media/hello.d11451f0.png",
+    "static/media/multifunction.e79af640.svg": "/portfolio/static/media/multifunction.e79af640.svg",
+    "static/media/puzzle.6747b010.svg": "/portfolio/static/media/puzzle.6747b010.svg",
+    "static/media/soon.870c160b.png": "/portfolio/static/media/soon.870c160b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9f76519.js",
+    "static/js/2.ea5f21f2.chunk.js",
+    "static/js/main.e10df21f.chunk.js"
+  ]
+}
