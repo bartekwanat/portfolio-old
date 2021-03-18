@@ -6,9 +6,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 
-
 export const ProjectsContainer = () => {
-  
   gsap.registerPlugin(ScrollTrigger);
   const ref = useRef(null);
 
@@ -19,45 +17,43 @@ export const ProjectsContainer = () => {
       {
         opacity: 0,
         scale: 0,
-        
       },
       {
         opacity: 1,
         scale: 1,
-        stagger : 0.3,
+        stagger: 0.3,
         scrollTrigger: {
           trigger: element.querySelector('.trigger'),
-          start: '80% 15%',
-          end: '100% 100%',
+          start: '60% 15%',
+          end: '80% 100%',
           scrub: true,
-         
         },
       }
     );
   }, []);
 
   return (
-  <StyledProjectsContainer  className="trigger">
-    <Container ref={ref} className="animate">
-      <div>
-        <img src={soon} />
-      </div>
-      <div>
-      <img src={soon} />
-      </div>
-      <div>
-      <img src={soon} />
-      </div>
-      <div>
-      <img src={soon} />
-      </div>
-      <div>
-      <img src={soon} />
-      </div>
-      <div>
-      <img src={soon} />
-      </div>
-    </Container>
-  </StyledProjectsContainer>
-);
-}
+    <StyledProjectsContainer className="trigger">
+      <Container ref={ref} className="animate">
+        <div>
+          <img src={soon} />
+        </div>
+        <div>
+          <img src={soon} />
+        </div>
+        <div>
+          <img src={soon} />
+        </div>
+        <div>
+          <img src={soon} />
+        </div>
+        <div>
+          <img src={soon} />
+        </div>
+        <div>
+          <img src={soon} />
+        </div>
+      </Container>
+    </StyledProjectsContainer>
+  );
+};

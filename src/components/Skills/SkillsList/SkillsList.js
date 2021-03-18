@@ -26,8 +26,8 @@ export function SkillsList() {
 
         scrollTrigger: {
           trigger: element.querySelector('.trigger'),
-          start: '44% 30%',
-          end: '60% 95%',
+          start: '30% 30%',
+          end: '50% 95%',
           scrub: true,
         },
       }

@@ -1,7 +1,7 @@
 import React from 'react';
-import styled, { StyledHello } from 'components/HelloPage/Hello/Hello.styles';
+import { StyledHello } from 'components/HelloPage/Hello/Hello.styles';
 import { Title } from 'components/HelloPage/Hello/Title/Title';
-import { ReactComponent as Arrow } from 'assets/icons/chevron-down-solid.svg';
+
 import photo from 'assets/icons/hello.png';
 import { Spring } from 'react-spring/renderprops';
 
@@ -13,11 +13,7 @@ export const Hello = () => (
       to={{ transform: 'translateY(0)', opacity: 1 }}
       config={{ delay: 1200, duration: 400 }}
     >
-      {(props) => (
-        <div style={props}>
-          <img src={photo} className="photo" />
-        </div>
-      )}
+      {(props) => <img style={props} src={photo} className="photo" />}
     </Spring>
   </StyledHello>
 );

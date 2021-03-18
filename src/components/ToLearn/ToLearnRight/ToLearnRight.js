@@ -18,21 +18,16 @@ export const ToLearnRight = () => {
       {
         opacity: 0,
         x: 100,
-        
-       
       },
       {
         opacity: 1,
         x: 0,
-     
-        
 
         scrollTrigger: {
           trigger: element.querySelector('.trigger'),
-          start: '60% 30%',
-          end: '80% 100%',
+          start: '40% 15%',
+          end: '65% 100%',
           scrub: true,
-          
         },
       }
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SectionTitle } from 'components/HelloPage/Hello/Title/SectionTitle';
+
 import { StyledSkillsSideBar } from './SkillsSideBar.style';
 import { ReactComponent as Puzzle } from 'assets/icons/puzzle.svg';
 import { useRef } from 'react';
@@ -21,7 +21,7 @@ export const SkillsSideBar = (props) => {
       },
       {
         opacity: 1,
-        x: 0,   
+        x: 0,
         duration: 3,
         yoyoEase: true,
         scrollTrigger: {
@@ -29,8 +29,6 @@ export const SkillsSideBar = (props) => {
           start: '26% 30%',
           end: '45% 100%',
           scrub: true,
-          
-        
         },
       }
     );
@@ -38,10 +36,10 @@ export const SkillsSideBar = (props) => {
 
   return (
     <section ref={ref} className="trigger">
-    <StyledSkillsSideBar className="animation">
-      <Puzzle />
-      <SectionTitle title="skills"></SectionTitle>
-    </StyledSkillsSideBar>
+      <StyledSkillsSideBar className="animation">
+        <Puzzle />
+        <h3>skills</h3>
+      </StyledSkillsSideBar>
     </section>
   );
 };

@@ -10,11 +10,9 @@ import { Projects } from 'components/Projects/Projects';
 import BurgerMenu from 'components/BurgerMenu/BurgerMenu';
 import { StyledBurger } from './Root.styles';
 import scroll from 'components/Helpers/scroll';
-
+import { Contact } from 'components/Contact/Contact';
 
 const Root = () => {
- 
-
   return (
     <div className="root">
       <ThemeProvider theme={theme}>
@@ -22,10 +20,11 @@ const Root = () => {
         <StyledBurger></StyledBurger>
         <BurgerMenu />
         <HelloPage />
-        <AboutMePage/>
+        <AboutMePage />
         <Skills />
         <ToLearn />
         <Projects />
+        <Contact />
       </ThemeProvider>
     </div>
   );

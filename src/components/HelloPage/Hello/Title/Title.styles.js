@@ -17,7 +17,6 @@ export const Wrapper = styled.div`
 export const StyledTitle = styled.h1`
   margin: 0;
   padding: 0;
-  width: 400px;
   font-size: 15vw;
   transform: translateX(10vw) translateY(-10vh);
 

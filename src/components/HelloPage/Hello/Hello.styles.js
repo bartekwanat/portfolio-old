@@ -17,7 +17,7 @@ export const StyledHello = styled.h1`
     position: relative;
     bottom: 0vh;
     right: 10vw;
-    height: 50vh;
+    height: 70%;
 
     ${media.phone} {
       right: 20vw;
@@ -37,7 +37,6 @@ export const StyledHello = styled.h1`
     left: 30vw;
     color: ${({ theme }) => theme.colors.third};
 
-
     ${media.phone} {
       bottom: 25vh;
       left: 20vw;
@@ -47,7 +46,6 @@ export const StyledHello = styled.h1`
     ${media.tabletPortrait} {
       left: 20vw;
       bottom: 25vh;
-
     }
   }
 `;

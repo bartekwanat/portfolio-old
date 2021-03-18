@@ -28,10 +28,9 @@ export const SkillsListItem = ({ skills: { name, url } }) => {
 
         scrollTrigger: {
           trigger: element.querySelector('.trigger'),
-          start: '33% 30%',
-          end: '60% 100%',
+          start: '30% 30%',
+          end: '50% 95%',
           scrub: true,
-          
         },
       }
     );

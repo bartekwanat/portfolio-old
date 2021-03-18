@@ -6,7 +6,7 @@ const media = {
 };
 
 export const StyledSkillsSideBar = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 20vh;
   background-color: ${({ theme }) => theme.colors.dark};
   color: white;

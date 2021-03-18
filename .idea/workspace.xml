@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f90519a3-eb57-4723-a4b1-fdb85bc3d4de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/frayed-bar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/GlobalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/AboutMePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMePage/AboutMePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/AboutMePage.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMePage/AboutMePage.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/AboutMeText/AboutMeItem/AboutMeItem.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/AboutMeText/AboutMeItem/AboutMeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/AboutMeText/AboutMeItem/AboutMeText.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/AboutMeText/AboutMeText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMePage/AboutMeText/AboutMeText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/AboutMeText/AboutMeText.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMePage/AboutMeText/AboutMeText.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/SideBar/SideBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMePage/SideBar/SideBar.styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloPage/Hello/Hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloPage/Hello/Hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloPage/Hello/Hello.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloPage/Hello/Hello.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloPage/Hello/Title/SectionTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloPage/Hello/Title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloPage/Hello/Title/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloPage/Hello/Title/Title.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloPage/Hello/Title/Title.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloPage/HelloPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloPage/HelloPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloPage/Navigations/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloPage/Navigations/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Helpers/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Helpers/scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectsContainer/ProjectsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsContainer/ProjectsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectsTitleBox/ProjectsTitleBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsTitleBox/ProjectsTitleBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/SkillsList/SkillsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SkillsList/SkillsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/SkillsList/SkillsListItem/SkillsListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SkillsList/SkillsListItem/SkillsListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/SkillsSideBar/SkillsSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SkillsSideBar/SkillsSideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/SkillsSideBar/SkillsSideBar.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SkillsSideBar/SkillsSideBar.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToLearn/ToLearnLeft/ToLearnLeft.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToLearn/ToLearnLeft/ToLearnLeft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToLearn/ToLearnRight/ToLearnRight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToLearn/ToLearnRight/ToLearnRight.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pkp3rEho7gctERxgKTphUkkx59" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f90519a3-eb57-4723-a4b1-fdb85bc3d4de" name="Default Changelist" comment="" />
+      <created>1615736748557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615736748557</updated>
+      <workItem from="1615736752602" duration="91000" />
+      <workItem from="1616101093052" duration="731000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

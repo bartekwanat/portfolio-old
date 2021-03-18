@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled, { StyledTitle, StyledName, Wrapper } from './Title.styles';
+import React from 'react';
+import { StyledTitle, StyledName, Wrapper } from './Title.styles';
 import { Spring } from 'react-spring/renderprops';
 
 export const Title = () => (
@@ -9,12 +9,10 @@ export const Title = () => (
     config={{ delay: 1200, duration: 400 }}
   >
     {(props) => (
-      <div style={props}>
-        <Wrapper>
-          <StyledTitle>hello</StyledTitle>
-          <StyledName>I'm Bartek</StyledName>
-        </Wrapper>
-      </div>
+      <Wrapper style={props}>
+        <StyledTitle>hello</StyledTitle>
+        <StyledName>I'm Bartek</StyledName>
+      </Wrapper>
     )}
   </Spring>
 );
